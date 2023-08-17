@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+input[type="text"]:focus {
+  outline: none !important;
+}
+
+
+.custom-header{
+  background-color: #060636;
+  color: #ffffff;
+  padding: 5px 0;
+}
+.body-bg {
+  background-color: #060655;
+  padding: 10px 0;
+}
+.card-content{
+  padding: 10px 0;;
+}
+.card-content>p{
+  font-size: 18px;
+  font-weight: 800;
+  
+}
+.custom-card{
+  width: 650px !important;
+}
+.rating{
+  display: flex;
+justify-content: center;
+}
+.rating-list{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+.rating-list li{
+  display: inline-block;
+}
+.rating-list li{
+  background-color: beige;
+  height: 35px;
+  width: 35px;
+  margin-right: 10px;
+  font-size: 12px;
+  padding-top: 7px;
+}
+.rating-list li:hover{
+  background-color: #f5ac98;
+}
+.rating-list li:active{
+  background-color: #d15757;
+  color: #fff;
+}
+.rating-list li.selected {
+  background-color: lightcoral;
+  color: white;
+  border-color: transparent;
+}
+.rating-list li span{
+  vertical-align: middle;
+}
+.rating-list li:last-child{
+  margin-right: none;
+}
+.content-count-body{
+  width: 650px !important;
+}
+.content-count-body p{
+  font-size:14px;
+}
+.user_input{
+  margin-top: 25px;
+}
+.content-count-body .row > .col-6:first-child{
+  text-align: left;
+}
+.content-count-body .row > .col-6:last-child{
+  text-align:right;
+}
+.review-card{
+  position:relative;
+}
+.score{
+  position: absolute;
+  left: 13px;
+  content: "";
+  display: block;
+  background-color: lightcoral;
+  padding: 2px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  top: -16px;
+  text-align: center;
+  color: #fff;
+}
+.message-interaction{
+  position: absolute;
+  right: 10px;
+  top: -6px;
+}
+.message-interaction i{
+  font-size: 12px;
+  cursor: pointer;
+}
+.message-interaction i:first-child{
+  margin-right: 7px;
+}
+.content-count-body p{
+  color:#fff;
+  font-weight: 900;
+  font-size: 16px;
+}
+.message-content{
+  margin:0;
+  text-align: left;
+  padding-left: 10px;
+}
+/* margins and paddings */
+.ph-20{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pv-20{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.custom-form{
+  border: 1px solid #b1b1b1;
+  border-radius: 5px;
+}
+.custom-form button{
+  border:none;
+  background-color: #060636;
+  color:#fff;
+  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
